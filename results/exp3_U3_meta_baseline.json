@@ -1,0 +1,67 @@
+{
+  "experiment": "exp3_U3",
+  "suffix": "baseline",
+  "alpha": 148.10559556786703,
+  "m_max": 4.0,
+  "x_max": 4.0,
+  "N_m": 60,
+  "N_x": 60,
+  "N_t": 500,
+  "N_z": 200,
+  "eps_buy": 0.05,
+  "eps_sell": 0.05,
+  "elapsed_s": 16.45,
+  "results": {
+    "w1.655": {
+      "wealth": 1.655,
+      "n_buy": 2,
+      "n_sell": 2,
+      "n_notrade": 4,
+      "intervals": [
+        {
+          "action": "notrade",
+          "pi_start": 0.0,
+          "pi_end": 0.004008016032064128
+        },
+        {
+          "action": "sell",
+          "pi_start": 0.004008016032064128,
+          "pi_end": 0.07414829659318636
+        },
+        {
+          "action": "buy",
+          "pi_start": 0.07414829659318636,
+          "pi_end": 0.07615230460921843
+        },
+        {
+          "action": "notrade",
+          "pi_start": 0.07615230460921843,
+          "pi_end": 0.08016032064128256
+        },
+        {
+          "action": "sell",
+          "pi_start": 0.08016032064128256,
+          "pi_end": 0.11823647294589178
+        },
+        {
+          "action": "notrade",
+          "pi_start": 0.11823647294589178,
+          "pi_end": 0.1222444889779559
+        },
+        {
+          "action": "buy",
+          "pi_start": 0.1222444889779559,
+          "pi_end": 0.9979959919839678
+        },
+        {
+          "action": "notrade",
+          "pi_start": 0.9979959919839678,
+          "pi_end": 1.0
+        }
+      ],
+      "n_switches": 500,
+      "reversed_order": true,
+      "jump_near_018": true
+    }
+  }
+}

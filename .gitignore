@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data dumps (raw API responses — never commit)
+data/*.csv
+data/*.parquet
+data/*.json
+
+# Temporary files
+*.tmp
+*.log
